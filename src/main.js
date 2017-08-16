@@ -8,11 +8,8 @@ import routerMap from './router/router'
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */
-
 Vue.use(VueRouter)
 const router = new VueRouter({ routes: routerMap })
-
-
 new Vue({
   el: '#app',
   router,
